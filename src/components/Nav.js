@@ -4,13 +4,14 @@ import "../styles/nav.css";
 
 
 
+
 function Navbar() {
     return (
-        <div classname="Navbar">
+        <div className="Navbar">
             <div classname="toggleButton">
-                <button></button>
+               
             </div>
-            <div classname="links">
+            <div className="links">
                 <Link to="/"> Home</Link>
                 <Link to="/About"> About</Link>
                 <Link to="/Projects"> Projects</Link>
