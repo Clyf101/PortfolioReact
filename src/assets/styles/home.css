@@ -28,11 +28,7 @@
     width: 40%;
     font-size: 30px;
   }
-  .prompt svg {
-    font-size: 60px;
-    margin: 5px;
-    color: white;
-  }
+ 
   
   .skills {
     font-size: 35px;
@@ -50,7 +46,7 @@
   
   .skills .list {
     list-style: none;
-    width: 60%;
+    width: 50%;
   }
   
   .list span {
@@ -78,5 +74,8 @@
     .skills h2 {
       font-size: 30px;
     }
+  }
+  .career{
+    color:#f0f0f0;
   }
   

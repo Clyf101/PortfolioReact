@@ -4,6 +4,7 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
+   
   }
   
   .h2 {
@@ -11,6 +12,7 @@
   }
   
   .project {
+    
     display: inline-block;
     width: calc(33.33% - 10px);
     background-color: #fff;
@@ -24,6 +26,9 @@
     position: relative;
     height: 200px;
     padding-bottom: 40px;
+   
+   
+    
   }
   
   .project:hover {
@@ -45,17 +50,6 @@
     left: 20px;
   }
   
-  .project button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
-    position: absolute;
-    bottom: 10px;
-    right: 20px;
-  }
   
   
   @media (max-width: 767px) {
@@ -88,4 +82,19 @@
   .project:nth-child(3) {
     background-image: url('../BackgroundPic/logo192.png');
   }
-  
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color: #21325e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+
+    
+}

@@ -9,7 +9,7 @@ import "../assets/styles/footer.css";
 function Footer(){
     return (
         <div className="footer">
-            <div>
+            <div className='footIcon'>
                 <GitHub/>
                 <LinkedIn/>
             </div>
