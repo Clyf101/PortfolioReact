@@ -7,7 +7,7 @@ import "../styles/nav.css";
 
 function Navbar() {
     return (
-        <div className="Navbar">
+        <div className="navbar">
             <div classname="toggleButton">
                
             </div>
@@ -15,8 +15,8 @@ function Navbar() {
                 <Link to="/"> Home</Link>
                 <Link to="/About"> About</Link>
                 <Link to="/Projects"> Projects</Link>
-                <Link to="/education"> Education</Link>
-                <Link to="/Contact"> Contact</Link>
+                <Link to="/Education"> Education</Link>
+                
             </div>
 
         </div>
