@@ -2,7 +2,7 @@ import React from 'react';
 import { LinkedIn } from '@mui/icons-material';
 import { GitHub } from '@mui/icons-material';
 import { Email } from '@mui/icons-material';
-import "../styles/home.css"
+import "../assets/styles/home.css"
 
 
 

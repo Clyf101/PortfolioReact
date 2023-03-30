@@ -1,7 +1,7 @@
 import React from 'react';
 import { GitHub } from '@mui/icons-material';
 import { LinkedIn } from '@mui/icons-material';
-import "../styles/footer.css";
+import "../assets/styles/footer.css";
 
 
 
